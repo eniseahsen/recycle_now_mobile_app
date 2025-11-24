@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/btnCapture"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/circle_button_bg"
+        android:padding="20dp"
+        android:src="@drawable/baseline_linked_camera_24"
+        app:tint="#FFFFFF"/>
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="565dp"
+        android:layout_marginBottom="40dp"
+        android:padding="20dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:background="@android:color/transparent"
+        app:tint="#FFFFFF"/>
+
+    <ImageButton
+        android:id="@+id/btnGallery"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="565dp"
+        android:layout_marginBottom="40dp"
+        android:padding="20dp"
+        android:src="@drawable/baseline_photo_library_24"
+        android:background="@android:color/transparent"
+        app:tint="#FFFFFF"/>
+    
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+
+
+
+</FrameLayout>

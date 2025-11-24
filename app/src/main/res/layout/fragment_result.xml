@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:id="@+id/resultFragment"
+    android:gravity="center"
+    android:background="#E0F7FA">
+
+    <ImageView
+        android:id="@+id/imageViewResult"
+        android:layout_width="300dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="300dp"
+        android:background="#222"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/platypi_bold"
+        android:paddingTop="20dp"
+        android:text="Sonuç burada görünecek"
+        android:textColor="#008080"
+        android:textSize="20sp" />
+
+    <ImageButton
+    android:id="@+id/btnBackResult"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:layout_marginRight="140dp"
+
+    android:layout_marginTop="40dp"
+    android:padding="20dp"
+    android:src="@drawable/baseline_arrow_back_24"
+    android:background="@android:color/transparent"
+    />
+</LinearLayout>
