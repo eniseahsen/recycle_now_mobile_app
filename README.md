@@ -1,4 +1,4 @@
-# Waste Classification App (Hangi Atık?)
+# Waste Classification App (Recycle Now / Hangi Atık?)
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![TensorFlow Lite](https://img.shields.io/badge/TensorFlow%20Lite-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -24,9 +24,9 @@ An intelligent Android application that identifies and classifies household wast
 
 To help users understand the application flow, here is a visual guide to the interface:
 
-| Welcome & Home | Camera Scan | Analysis Result |
-| :---: | :---: | :---: |
-| <img src="screenshots/home.png" width="200"> | <img src="screenshots/scan.png" width="200"> | <img src="screenshots/result.png" width="200"> |
+
+
+| <img src="screenshots/ss2.jpeg" width="200"> | <img src="screenshots/scan.png" width="200"> | <img src="screenshots/result.png" width="200"> |
 
 
 
