@@ -19,6 +19,17 @@ An intelligent Android application that identifies and classifies household wast
   - **Plastic (Plastik)**
   - **Glass (Cam)**
   - **Metal (Metal)**
+ 
+## Screenshots
+
+To help users understand the application flow, here is a visual guide to the interface:
+
+| Welcome & Home | Camera Scan | Analysis Result |
+| :---: | :---: | :---: |
+| <img src="screenshots/home.png" width="200"> | <img src="screenshots/scan.png" width="200"> | <img src="screenshots/result.png" width="200"> |
+
+
+
 
 ## Tech Stack & Architecture
 
@@ -44,4 +55,4 @@ An intelligent Android application that identifies and classifies household wast
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/waste-classifier-android.git](https://github.com/yourusername/waste-classifier-android.git)
+   git clone [https://github.com/eniseahsen/recycle_now_mobile_app.git](https://github.com/eniseahsen/recycle_now_mobile_app.git)
