@@ -22,11 +22,9 @@ An intelligent Android application that identifies and classifies household wast
  
 ## Screenshots
 
-To help users understand the application flow, here is a visual guide to the interface:
 
 
-
-| <img src="screenshots/ss2.jpeg" width="200"> | <img src="screenshots/scan.png" width="200"> | <img src="screenshots/result.png" width="200"> |
+| <img src="screenshots/ss2.jpeg" width="200"> | <img src="screenshots/ss3.jpeg" width="200"> | <img src="screenshots/ss4.jpeg" width="200"> |
 
 
 
