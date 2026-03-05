@@ -1,0 +1,5 @@
+cam
+kagit
+metal
+pil
+plastik

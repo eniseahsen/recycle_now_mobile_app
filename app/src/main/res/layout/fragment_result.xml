@@ -1,39 +1,93 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/resultFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:id="@+id/resultFragment"
-    android:gravity="center"
-    android:background="#E0F7FA">
+    android:background="#C1DAD7"
+    android:gravity="top|center_horizontal">
 
+    <!-- Sonuç resmi -->
     <ImageView
         android:id="@+id/imageViewResult"
-        android:layout_width="300dp"
-        android:layout_marginTop="40dp"
-        android:layout_height="300dp"
-        android:background="#222"
-        android:scaleType="centerCrop" />
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:adjustViewBounds="false"
+        android:scaleType="centerInside"
+        android:background="@android:color/transparent" />
 
+    <!-- SONUÇ YAZISI -->
     <TextView
         android:id="@+id/textResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/platypi_bold"
-        android:paddingTop="20dp"
         android:text="Sonuç burada görünecek"
-        android:textColor="#008080"
-        android:textSize="20sp" />
+        android:textColor="#00BFA5"
+        android:textSize="22sp"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:letterSpacing="0.05"
+        />
 
+
+    <!-- Kategori kutuları -->
+    <LinearLayout
+        android:id="@+id/categoryContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/boxCam"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:src="@drawable/cam"
+            android:background="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/boxKagit"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:src="@drawable/paper"
+            android:background="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/boxMetal"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:src="@drawable/metal"
+            android:background="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/boxPil"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:src="@drawable/pild"
+            android:background="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/boxPlastik"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:src="@drawable/plastik"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <!-- Geri butonu -->
     <ImageButton
-    android:id="@+id/btnBackResult"
-    android:layout_width="120dp"
-    android:layout_height="120dp"
-    android:layout_marginRight="140dp"
+        android:id="@+id/btnBackResult"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="130dp"
+        android:padding="20dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:background="@android:color/transparent" />
 
-    android:layout_marginTop="40dp"
-    android:padding="20dp"
-    android:src="@drawable/baseline_arrow_back_24"
-    android:background="@android:color/transparent"
-    />
 </LinearLayout>
