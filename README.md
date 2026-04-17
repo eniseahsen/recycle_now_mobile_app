@@ -20,7 +20,7 @@ An intelligent Android application that identifies and classifies household wast
   - **Glass (Cam)**
   - **Metal (Metal)**
  
-## Screenshots
+
 
 
 
@@ -29,7 +29,7 @@ An intelligent Android application that identifies and classifies household wast
   <img src="screenshots/ss3.jpeg" width="200" />
   <img src="screenshots/ss4.jpeg" width="200" />
   <img src="screenshots/ss5.jpeg" width="200" />
-</p>|
+</p>
 
 
 
@@ -58,4 +58,4 @@ An intelligent Android application that identifies and classifies household wast
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/eniseahsen/recycle_now_mobile_app.git](https://github.com/eniseahsen/recycle_now_mobile_app.git)
+    git clone https://github.com/eniseahsen/recycle_now_mobile_app.git
